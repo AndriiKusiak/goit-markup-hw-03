@@ -20,13 +20,15 @@ h6 {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--slate-color);
   background-color: var(--white-color);
