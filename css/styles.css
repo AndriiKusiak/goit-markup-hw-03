@@ -28,7 +28,6 @@ ol {
 }
 
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--slate-color);
   background-color: var(--white-color);
