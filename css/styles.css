@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1188px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -192,11 +192,14 @@ img {
 .buttons-container {
   display: flex;
   margin: 0 auto;
+  gap: 24px;
 }
 
 .gallary-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 .second-tittle {
@@ -279,6 +282,9 @@ img {
 }
 
 .menu-button {
+  border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   color: var(--iris-color);
