@@ -47,6 +47,19 @@ img {
   max-width: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -172,6 +185,10 @@ img {
   width: calc((100% - 24px * 3) / 4);
 }
 
+.team-paragraph {
+  text-align: center;
+}
+
 .second-tittle {
   color: var(--navyblue-color);
   font-size: 36px;
@@ -238,6 +255,9 @@ img {
   padding-top: 32px;
   text-align: center;
 }
+.footer-cotainer {
+  padding-top: 101px;
+}
 
 .footer-paragraph {
   color: var(--cloud-color);
@@ -245,7 +265,6 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 100px;
-  width: 264px;
   max-width: 264px;
 }
 
