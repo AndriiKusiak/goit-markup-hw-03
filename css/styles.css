@@ -189,6 +189,16 @@ img {
   text-align: center;
 }
 
+.buttons-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.gallary-container {
+  display: flex;
+  gap: 24px;
+}
+
 .second-tittle {
   color: var(--navyblue-color);
   font-size: 36px;
