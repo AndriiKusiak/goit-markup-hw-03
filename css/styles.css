@@ -241,6 +241,8 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 
 .third-title {
