@@ -136,13 +136,17 @@ img {
   font-style: normal;
 }
 
+.ruls-section {
+  padding: 120px 0 120px;
+}
+
 .main-section {
   background-color: var(--navyblue-color);
+  padding: 188px 0 188px;
 }
 
 .main-container {
   display: block;
-  padding: 188px 0 188px;
 }
 
 .main-title {
